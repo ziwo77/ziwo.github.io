@@ -1,0 +1,26 @@
+style.css
+
+ul.navbar-nav.m-auto li a:hover {
+    color: #666;
+    background: #DDD;
+    display:block;
+}
+
+ul.navbar-nav.m-auto li ul {
+    list-style-type: none;
+    display: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    letter-spacing:2px;
+}
+
+
+ul.navbar-nav.m-auto li:hover>ul{
+    display:block;   
+}
+
+ul.navbar-nav.m-auto ul a{
+    color:#fff;
+}
